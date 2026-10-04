@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_ROBOTWIN",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "RoboTwin-Platform/RoboTwin",
+  "commit": "ea8b21121ebb",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 56.39,
+      "min": 51.97,
+      "max": 63.03,
+      "all": [
+        60.96,
+        63.03,
+        53.0,
+        51.97,
+        53.01
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_ROBOTWIN (RoboTwin-Platform/RoboTwin) \u2014 753 files, 23900 source lines, licence MIT, primary language ['Python']",
+      "token_count": 35,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "robot",
+        "##win",
+        "(",
+        "robot",
+        "##win",
+        "-",
+        "platform",
+        "/",
+        "robot",
+        "##win",
+        ")",
+        "\u2014",
+        "75",
+        "##3",
+        "files",
+        ",",
+        "239"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5855,
+      "classification_latency_ms": 115.51,
+      "status": "PASS"
+    }
+  }
+}

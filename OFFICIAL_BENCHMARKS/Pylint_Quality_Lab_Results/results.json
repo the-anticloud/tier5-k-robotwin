@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "K_ROBOTWIN",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 1.91,
+    "pylint_score_max": 10.0,
+    "status": "FAIL",
+    "raw_output": "************* Module _download\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\assets\\_download.py:1:0: C0114: Missing module docstring (missing-module-docstring)\n************* Module code_gen.gpt_agent\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:37:0: C0305: Trailing newlines (trailing-newlines)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:1:0: E0401: Unable to import 'openai' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:3:0: C0103: Constant name \"kimi_api\" doesn't conform to UPPER_CASE naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:4:0: C0103: Constant name \"openai_api\" doesn't conform to UPPER_CASE naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:5:0: C0103: Constant name \"deep_seek_api\" doesn't conform to UPPER_CASE naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:11:8: C0103: Variable name \"MODEL\" doesn't conform to snake_case naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:12:8: C0103: Variable name \"OPENAI_API_BASE\" doesn't conform to snake_case naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:14:8: C0103: Variable name \"OPENAI_API_KEY\" doesn't conform to snake_case naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:18:8: C0103: Variable name \"MODEL\" doesn't conform to snake_case naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py:19:8: C0103: Variable name \""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "K_ROBOTWIN",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n      22      3    120      3      28 generate@8-35@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py\n      65     15    499      7     130 observe_task_execution@9-138@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\observation_agent.py\n       3      1     32      1       4 encode_image@141-144@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\observation_agent.py\n      23      7    197      3      94 insert_observation_points@147-240@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\observation_agent.py\n      21      4    142      3      41 run_code@21-61@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\run_code.py\n      21    "
+  }
+}

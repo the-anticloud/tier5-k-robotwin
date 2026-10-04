@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_ROBOTWIN",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "B",
+      "score": 5.9
+    },
+    "complexity_grade": "B",
+    "complexity_score": 5.9,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py\n    F 8:0 generate - A (3)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\observation_agent.py\n    F 9:0 observe_task_execution - C (15)\n    F 147:0 insert_observation_points - B (7)\n    F 141:0 encode_image - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\run_code.py\n    F 21:0 run_code - A (4)\n    F 64:0 main - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\task_generation.py\n    F 15:0 generate_code - A (5)\n    F 109:0 main - A (5)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\task_generation_mm.py\n    F 18:0 generate_code - C (16)\n    F 155:0 main - C (12)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\task_generation_simple.py\n    F 64:0 main - A (2)\n    F 14:0 generate_code_once - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\task_info.py\n    F 1405:0 get_all_tasks - A (5)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\test_gen_code.py\n    F 231:0 run - C (15)\n    F 29:0 enrich_actors - C (13)\n    F 161:0 setup_task_config - A (5)\n    F 85:0 class_decorator_gen - A (2)\n    F 104:0 class_decorator_env - A (2)\n    F 123:0 create_task_config - A (2)\n    F 1",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\assets\\_download.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\gpt_agent.py - A (79.09)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\observation_agent.py - A (65.43)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ROBOTWIN\\UPSTREAM\\code_gen\\prompt.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TI"
+  }
+}
